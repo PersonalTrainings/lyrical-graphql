@@ -1,0 +1,7 @@
+{
+  "db": {
+    "dbName": "lyricaldb",
+    "host": "localhost",
+    "port": 27017
+  }
+}
