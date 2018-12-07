@@ -41,8 +41,6 @@ const app = express();
 // Local DB
 const MONGO_URI = `mongodb://${config.db.host}:${config.db.port}/${config.db.dbName}`;
 
-// mLab DB
-// const MONGO_URI = 'mongodb://narek1993x:n123123@ds151169.mlab.com:51169/lyricaldb93';
 if (!MONGO_URI) {
   throw new Error('You must provide a MongoLab URI');
 }
